@@ -9,6 +9,8 @@ public class Main {
 
         if(a1>b1 && a2>b2) {
             System.out.print(1);
+        } else {
+            System.out.print(0);
         }
     }
 }
