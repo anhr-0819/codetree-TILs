@@ -8,8 +8,8 @@ public class Main {
         min = min<= b ? min : b;
         int c = scan.nextInt();
         min = min<= c ? min : c;
-        
-        if(a === min) {
+
+        if(a == min) {
             System.out.print(1 + " ");
         } else {
             System.out.print(0 + " ");
