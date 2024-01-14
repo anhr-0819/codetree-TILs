@@ -9,6 +9,7 @@ public class Main {
             switch(n) {
                 case 4: case 6: case 9: case 11:
                 System.out.print(30);
+                break;
                 default:
                 System.out.print(31);
             }
