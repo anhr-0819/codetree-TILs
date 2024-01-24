@@ -6,7 +6,9 @@ public class Main {
         int b = scan.nextInt();
         int sum = 0;
         while(a<=b) {
-            if(a%5 == 0) sum+=a;
+            if(a%5 == 0) {
+                sum+=a;
+            }
             a++;
         }
         System.out.print(sum);
