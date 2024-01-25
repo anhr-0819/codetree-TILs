@@ -9,10 +9,10 @@ public class Main {
         int min = Math.min(a,b);
         int sum = 0;
         while(min<=max) {
-            if(a%5 == 0) {
-                sum+=a;
+            if(min%5 == 0) {
+                sum+=min;
             }
-            a++;
+            min++;
         }
         System.out.print(sum);
     }
